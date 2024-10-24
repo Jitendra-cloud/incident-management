@@ -1,4 +1,3 @@
-# CAP incident-management
 _out
 *.db
 *.sqlite
@@ -8,6 +7,11 @@ default-*.json
 gen/
 node_modules/
 target/
+dist/
+
+# NPM
+.npmrc
+package-lock.json
 
 # Web IDE, App Studio
 .che/
@@ -30,5 +34,9 @@ mta_archives/
 # .vscode
 # .idea
 
-# @cap-js/cds-typer
-@cds-models
+# SAPUI5
+app/*/dist
+resources/
+
+# VitePress
+_docs/.vitepress/cache
